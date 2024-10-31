@@ -1,0 +1,49 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Recombee 1.0.0\n"
+"POT-Creation-Date: 2018-11-03 16:13+0300\n"
+"PO-Revision-Date: 2018-03-08 22:17+0300\n"
+"Last-Translator: David <4341922@gmail.com>\n"
+"Language-Team: David <4341922@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _x:1,2c;_nx:4c,1,2;__;_e;esc_html__;esc_html_e;"
+"esc_attr_e;_n:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: class-RecombeeReAdmin.php\n"
+
+#: class-RecombeeReAdmin.php:444
+msgid "Nothing to save"
+msgstr ""
+
+#: class-RecombeeReAdmin.php:458
+msgid "Save changes"
+msgstr ""
+
+#: class-RecombeeReAdmin.php:459
+msgid "Proceeding queue..."
+msgstr ""
+
+#: class-RecombeeReAdmin.php:460
+msgid "External error - reload page & Try again"
+msgstr ""
+
+#: class-RecombeeReAdmin.php:672 class-RecombeeReAdmin.php:686
+#: class-RecombeeReAdmin.php:709 class-RecombeeReAdmin.php:724
+msgid "Changes saved"
+msgstr ""
+
+#: class-RecombeeReAdmin.php:696 class-RecombeeReAdmin.php:734
+msgid "Saving error - repeat"
+msgstr ""
+
+#: class-RecombeeReAdmin.php:744
+msgid "Permission error - reload page & Try again"
+msgstr ""

@@ -1,0 +1,2129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Recombee\n"
+"POT-Creation-Date: 2018-11-09 20:07+0300\n"
+"PO-Revision-Date: 2018-11-09 20:08+0300\n"
+"Last-Translator: \n"
+"Language-Team: David <4341922@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _x:1,2c;_nx:4c,1,2;__;_e;esc_html__;esc_html_e;"
+"esc_attr_e;_n:1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: includes/class-RecombeeRe.php:78
+msgid "Recommended for You"
+msgstr "Рекомендуем для Вас"
+
+#: includes/class-RecombeeRe.php:408
+msgid "This site is standalone, no multisite"
+msgstr "Это одиночный сайт, не мультисеть"
+
+#: includes/class-RecombeeRe.php:709
+#, php-format
+msgid ""
+"<strong>Heads up!</strong> New plugin version (%s) contains changes to "
+"widget. To make it work correct - just resave all Recombee widget instances."
+msgstr ""
+"<strong>Внимательно!</strong> Новая вресия плагина (%s) содержит изменения в "
+"виджете. Чтобы он продолжил работать корректно - пересохраните все созданные "
+"экземпляры виджета Recombee."
+
+#: includes/class-RecombeeRe.php:905
+msgid "Hide warning forever"
+msgstr "Убрать предупреждение на совсем"
+
+#: includes/class-RecombeeRe.php:917 includes/class-RecombeeRe.php:938
+msgid ""
+"In the current version of the plug-in, the set of synchronized properties of "
+"the products is expanded. The new property is - "
+msgstr ""
+"В текущей версии плагина набор синхронизируемых свойств товаров расширен. "
+"Новое свойство - "
+
+#: includes/class-RecombeeRe.php:918 includes/data-ProductSettingsArgs.php:237
+msgid "Product Parent"
+msgstr "Родительский продукт"
+
+#: includes/class-RecombeeRe.php:919 includes/class-RecombeeRe.php:940
+#, php-format
+msgid ""
+"It is highly recommended, but not necessarily, to synchronize new property "
+"with Recombee DB. Synchronization of this property will solve the problem of "
+"a non-stable number of recommended products, displayed by the widget."
+"<br><br>To do this - go to the %1$s and perform two actions:"
+msgstr ""
+"Настоятельно рекомендуется, но не является обязательным, синхронизировать "
+"новое свойство с базой данных Recombee. Синхронизация этого свойства "
+"позволит решить проблему не стабильного количества рекомендуемых продуктов, "
+"выводимых виджетом.<br><br>Чтобы выполнить синхронизацию перейдите на %1$s и "
+"выполните два действия:"
+
+#: includes/class-RecombeeRe.php:919 includes/class-RecombeeRe.php:940
+msgctxt "warning 2.2.2"
+msgid "plugin settings page"
+msgstr "страницу настроек плагина"
+
+#: includes/class-RecombeeRe.php:920 includes/class-RecombeeRe.php:941
+msgid ""
+"find <span class=\"wparam\">WC Product Properties synchronization</span> "
+"section and synchronize the set of properties with the Recombee database."
+msgstr ""
+"найдите раздел <span class=\"wparam\">Синхронизация свойств Продуктов WC</"
+"span> и синхронизируйте набор свойств с базой Recombee."
+
+#: includes/class-RecombeeRe.php:921 includes/class-RecombeeRe.php:942
+msgid ""
+"find <span class=\"wparam\">WC Products synchronization</span> section and "
+"re-synchronize all products."
+msgstr ""
+"найдите раздел <span class=\"wparam\">WC синхронизация Продуктов</span> и "
+"синхронизируйте продукты заново."
+
+#: includes/class-RecombeeRe.php:928
+#, php-format
+msgid ""
+"<p>In this version, a new option has appeared, it allows to replace the "
+"content of the related product section with Recombee recommendations, even "
+"in cases when this section generates not by WooCommerce itself, but, for "
+"example, via the code of the active theme. To do this, you need to determine "
+"the hook name, attached to the event "
+"\"woocommerce_after_single_product_summary\" and specify it in the \"WC "
+"Related Tags\" field on the %1$s. The default hook name is %2$s, and for "
+"example, for the theme \"Uplift\" the tag name will be %3$s</p>"
+msgstr ""
+"<p>В этой версии доступна новая опция, которая позволяет заменить содержимое "
+"блока Похожие товары на рекомендации Recombee даже в тех случаях, когда "
+"такой блок выводится не напрямую средствами WooCommerce, а, например, кодом "
+"активной темы. Чтобы выполнить замену Вам необходимо определить имя хука, "
+"который прикреплен к обработке события "
+"\"woocommerce_after_single_product_summary\" и указать его в поле \"WC "
+"Похожие товары - метки\" на %1$s. Имя хука по умолчанию %2$s, и, например, "
+"для темы \"Uplift\" этот хук называется %3$s</p>"
+
+#: includes/class-RecombeeRe.php:929
+msgctxt "warning 2.2.4"
+msgid "plugin settings page"
+msgstr "страницу настроек плагина"
+
+#: includes/class-RecombeeRe.php:939 includes/data-ProductSettingsArgs.php:210
+msgid "Product is Visible"
+msgstr "Видимость Товара"
+
+#: includes/class-RecombeeRe.php:943
+msgid ""
+"After you have done with it, do not forget to modify WC Related Override "
+"shortcode and widget instances replacing <span class=\"wparam\">'wpStatus' "
+"== true</span> with <span class=\"wparam\">'wcProductIsVisible' == true</"
+"span>."
+msgstr ""
+"После этого не забудьте отредактировать шорткод WC Похожие товары - "
+"переопределение и все экземпляры активных виджетов, заменив в поле фильтра "
+"условие <span class=\"wparam\">'wpStatus' == true</span> на <span class="
+"\"wparam\">'wcProductIsVisible' == true</span>."
+
+#: includes/class-RecombeeRe.php:1039
+msgid "API Docs"
+msgstr "API Документация"
+
+#: includes/class-RecombeeRe.php:1053
+msgid ""
+"Recombee Recommendation Engine requires WooCommerce installed & activated to "
+"work."
+msgstr ""
+"Recombee Recommendation Engine требует инсталированного и активного плагина "
+"WooCommerce."
+
+#: includes/class-RecombeeRe.php:1056
+msgid ""
+"Recombee Recommendation Engine plugin lost connect to the Recombee Database. "
+"Check Your connection setting."
+msgstr ""
+"Плагин Recombee Recommendation Engine потерял соединение с базой данных "
+"Recombee. Проверьте настройки подключения."
+
+#: includes/class-RecombeeRe.php:1062
+#, php-format
+msgid ""
+"There was an error in WC Customer update request. See <i>%s</i> for extra "
+"information."
+msgstr ""
+"Обновление данных Покупателя WC завершилось с ошибками. Подробности смотрите "
+"в  <i>%s</i>."
+
+#: includes/class-RecombeeRe.php:1065
+#, php-format
+msgid ""
+"There was an error in WC product update request. See <i>%s</i> for extra "
+"information."
+msgstr ""
+"Обновление данных Товара WC завершилось с ошибками. Подробности смотрите в  "
+"<i>%s</i>."
+
+#: includes/class-RecombeeRe.php:1068
+#, php-format
+msgid ""
+"There was an error on adding new product taxonomy to Recombee. See <i>%s</i> "
+"for extra information."
+msgstr ""
+"Добавление нового свойства товара(таксономия) завершилось с ошибками. "
+"Подробности смотрите в  <i>%s</i>."
+
+#: includes/class-RecombeeRe.php:1071
+#: includes/class-RecombeeReBlogSettingsDb.php:1177
+#, php-format
+msgid ""
+"There was an error in Recombee getting product properties request. See <i>"
+"%s</i> for extra information."
+msgstr ""
+"Получение свойств товара завершилось с ошибками. Подробности смотрите в <i>"
+"%s</i>."
+
+#: includes/class-RecombeeRe.php:1074
+#, php-format
+msgid ""
+"Some WC Product Taxonomies have the same names as WC Product meta fields. "
+"Recombee Plugin is unable to handle these taxonomies. Here are the doubled "
+"names: %s"
+msgstr ""
+"Обнаружены таксономии Продуктов WC с такими же именами, как у мета полей "
+"Продуктов WC. Recombee Recommends не сможет оперировать ими. Задвоенные "
+"имена: %s"
+
+#: includes/class-RecombeeReBlogSettings.php:361
+msgid "Recombee parameters"
+msgstr "Recombee параметры"
+
+#: includes/class-RecombeeReBlogSettings.php:362
+msgid ""
+"Recombee engine supports many different parameters. Read their descriptions "
+"to use the widget as efficiently as possible:"
+msgstr ""
+"Ядро Recombee поддерживает множество различных параметров. Ознакомьтесь с "
+"каждым из них, чтобы использовать виджет максимально эффективно:"
+
+#: includes/class-RecombeeReBlogSettings.php:364
+msgid "Parent only"
+msgstr "Только родительские товары"
+
+#: includes/class-RecombeeReBlogSettings.php:364
+msgid ""
+"Default “on”. Switch this option ON if you want to exclude varitaions from "
+"recommendations. With switched ON only parent products will be shown."
+msgstr ""
+"Опционально. По умолчанию -“on”. Включите эту опцию, если требуется "
+"исключить из рекомендаций вариативные товары. При включенной опции будут "
+"выводится только родительские товары."
+
+#: includes/class-RecombeeReBlogSettings.php:365
+msgid "AJAX mode"
+msgstr "Включить режим AJAX"
+
+#: includes/class-RecombeeReBlogSettings.php:365
+msgid ""
+"Default “on”. Recommendations are loaded asynchronously with AJAX mode "
+"enabled, and therefore do not increase load time of the pages at your site. "
+"This mode may increase page speed load, but search engines, probably, will "
+"not parse recommendations content."
+msgstr ""
+"По умолчанию - “on”. При включенном режиме AJAX все страницы, в которых "
+"присутствует виджет Recombee, будут загружатся не зависимо от скорости "
+"ответа сервера Recombee. Включение этого режима может повысить скорость "
+"загрузки страниц, но поисковые машины, возможно, не увидят контент "
+"рекомендаций."
+
+#: includes/class-RecombeeReBlogSettings.php:366
+#: includes/class-RecombeeReRecommsWidget.php:745
+msgid "Follow Theme CSS"
+msgstr "Использовать CSS темы"
+
+#: includes/class-RecombeeReBlogSettings.php:366
+msgid ""
+"Default “on”. With this option On, the container with the products will be "
+"rendered via the active theme WooCommerce templates and CSS rules. "
+"Otherwise, the original WooCommerce template and styles will be used. Also "
+"if option value is Off plugin does not takes into account parameter \"columns"
+"\"."
+msgstr ""
+"По умолчанию - “on”. При значении опции On контейнер с товарами будет "
+"выведен с использованием шаблонов и стилей WooCommerce активной темы. В "
+"противном случае будут использованы оригинальные шаблоны и стили "
+"WooCommerce. Также при значении опции Off плагин не учитывает параметр "
+"\"columns\"."
+
+#: includes/class-RecombeeReBlogSettings.php:367
+#: includes/class-RecombeeReRecommsWidget.php:892
+msgid "Suppress logic"
+msgstr "Логика подавления"
+
+#: includes/class-RecombeeReBlogSettings.php:367
+msgid ""
+"Optional. Default “off”. This option allows to enable or disable the output "
+"of recommendations on individual pages of the site. It can take a value that "
+"consists of two parts: logic (“off”, “everywhere, excluding objects”, “only "
+"at objects”) and the object(s) where it will be applied. “off” - the option "
+"is disabled and recommendations are displayed everywhere, “everywhere, "
+"excluding objects” - recommendations are displayed everywhere, except for "
+"the specified object(s), “only at objects” - recommendations are displayed "
+"only at the specified object(s)."
+msgstr ""
+"Опционально. По умолчанию - “off”. Эта опция позволяет включать или "
+"выключать вывод в зависимости от текущей страницы сайта. Она принимает "
+"значение, которое состоит из двух частей: логика (“выключена”, “везде, "
+"исключая объекты”, “только для объектов”) и объектов, для которых будет "
+"применена логика. “выключена” - опция выключена и рекомендации выводятся "
+"везде, “везде, исключая объекты” - рекомендации выводятся везде, за "
+"исключением перечисленных объектов, “только для объектов” - рекомендации "
+"выводятся только для перечисленных объектов."
+
+#: includes/class-RecombeeReBlogSettings.php:368
+#: includes/class-RecombeeReRecommsWidget.php:749
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/class-RecombeeReBlogSettings.php:368
+#: includes/class-RecombeeReBlogSettings.php:399
+msgid "Default empty. Title before widget content. HTML allowed"
+msgstr "По умолчанию пусто. Заголовок перед содержимым виджета. HTML разрешен"
+
+#: includes/class-RecombeeReBlogSettings.php:369
+#: includes/class-RecombeeReRecommsWidget.php:750
+msgid "Columns"
+msgstr "Колонки"
+
+#: includes/class-RecombeeReBlogSettings.php:369
+msgid ""
+"Default 3 for “followThemeCSS=off” & for “followThemeCSS=on” default will be "
+"taken form “WooCommerce Products per raw” value. Integer between 0 & 9 "
+"inclusive. The maximum number of columns to which widget content will be "
+"divided if possible (depends on free space inside widget container)."
+msgstr ""
+"По умолчанию 3 для “followThemeCSS=off” & для “followThemeCSS=on” значение "
+"по умолчанию будет взято из значения параметра “WooCommerce количество "
+"товаров в ряду”. Целое число между 0 и 9 включительно. Максимальное "
+"количество колонок, на которое будет разбит контент виджета если это "
+"возможно (зависит от свободного места внутри контейнера виджета)"
+
+#: includes/class-RecombeeReBlogSettings.php:370
+#: includes/class-RecombeeReRecommsWidget.php:751
+msgid "Type"
+msgstr "Тип"
+
+#: includes/class-RecombeeReBlogSettings.php:370
+#: includes/class-RecombeeReBlogSettings.php:401
+msgid "Required! Can be \"ProductsToCustomer\" or \"ProductsToProduct\""
+msgstr ""
+"Обязательный! Возможные значения \"ProductsToCustomer\", \"ProductsToProduct"
+"\""
+
+#: includes/class-RecombeeReBlogSettings.php:371
+#: includes/class-RecombeeReRecommsWidget.php:752
+msgid "Count"
+msgstr "Количество"
+
+#: includes/class-RecombeeReBlogSettings.php:371
+msgid "Required! Number of items to be recommended"
+msgstr "Обязательный! Количество рекомендуемых Продуктов"
+
+#: includes/class-RecombeeReBlogSettings.php:372
+#: includes/class-RecombeeReRecommsWidget.php:753
+msgid "Scenario"
+msgstr "Сценарий"
+
+#: includes/class-RecombeeReBlogSettings.php:372
+#: includes/class-RecombeeReBlogSettings.php:403
+msgid ""
+"Optional. Default empty. Use <span class=\"code\">##PostType##</span> mask "
+"to get current WP Post Type value. Scenario defines a particular application "
+"of recommendations. It can be for example “homepage”, “cart” or “emailing”. "
+"You can see each scenario in the Recombee UI separately, so you can check "
+"how well each application performs. The AI which optimizes models in order "
+"to get the best results may optimize different scenarios separately, or even "
+"use different models in each of the scenarios."
+msgstr ""
+"Опционально. По умолчанию - пустая строка. С помощью сценария можно вести "
+"статистику показа рекомендаций. Сценарий может иметь, например, такие "
+"названия \"главная\", \"корзина\", \"продукт\" и т.д. Статистику по каждому "
+"сценарию можно просматривать в Recombee по отдельности, определяя таким "
+"образом, какие рекомендации работают лучше, основываясь на месте их показа."
+
+#: includes/class-RecombeeReBlogSettings.php:373
+#: includes/class-RecombeeReRecommsWidget.php:754
+msgid "User Impact"
+msgstr "Связь с посетителем"
+
+#: includes/class-RecombeeReBlogSettings.php:373
+msgid ""
+"Optional. For recommendations type \"ProductsToProduct\" generated items are "
+"biased towards the user given. Using userImpact, you may control this bias. "
+"For an extreme case of userImpact=0.0, the interactions made by the user are "
+"not taken into account at all (with the exception of history-based "
+"blacklisting), for userImpact=1.0, you’ll get user-based recommendation."
+msgstr ""
+"Опиционально. Для рекомендаций типа «ProductsToProduct» сгенерированные "
+"элементы учитывают взаимодействия пользователя. Используя userImpact, вы "
+"можете контролировать это смещение. Для userImpact = 0.0 взаимодействия "
+"вообще не учитываются (за исключением черных списков на основе истории), для "
+"userImpact = 1.0 вы получите рекомендацию, основанную на пользовательских "
+"взаимодействиях."
+
+#: includes/class-RecombeeReBlogSettings.php:374
+msgid "Filter"
+msgstr "Фильтр"
+
+#: includes/class-RecombeeReBlogSettings.php:374
+#, php-format
+msgid ""
+"Optional. Default empty. Boolean-returning %s expression which allows you to "
+"filter recommended items based on the values of their attributes. Predefined "
+"value is <span class=\"code\">'wpStatus' != \"deleted\"</span>."
+msgstr ""
+"Опционально. По умолчанию - пустая строка. %s выражение, возвращающее true "
+"или false, которое позволяет фильтровать рекомендуемые элементы на основе "
+"значений их атрибутов. Предопределенное значение - <span class=\"code"
+"\">'wpStatus' != \"deleted\"</span>."
+
+#: includes/class-RecombeeReBlogSettings.php:375
+msgid "Booster"
+msgstr "Бустер"
+
+#: includes/class-RecombeeReBlogSettings.php:375
+#, php-format
+msgid ""
+"Optional. Default empty. Number-returning %s expression which allows you to "
+"boost recommendation rate of some items based on the values of their "
+"attributes."
+msgstr ""
+"Опционально. По умолчанию - пустая строка. %s выражение, возвращающее true "
+"или false, которое сместить вес рекомендуемых продуктов на основе значений "
+"их атрибутов."
+
+#: includes/class-RecombeeReBlogSettings.php:376
+#: includes/class-RecombeeReRecommsWidget.php:757
+msgid "Diversity"
+msgstr "Разнообразие"
+
+#: includes/class-RecombeeReBlogSettings.php:376
+msgid ""
+"Optional. Real 0.0 <= number <= 1.0 which determines how much mutually "
+"dissimilar should the recommended items be. The default value is 0.0, i.e., "
+"no diversification. Value 1.0 means maximal diversification."
+msgstr ""
+"Опционально. Действительное 0.0 <= число <= 1.0, определяющее насколько "
+"сильно должны различатся рекомендуемые продукты. Значение по умолчанию 0.0 - "
+"нет различий. Значение 1.0 - максимальное различие."
+
+#: includes/class-RecombeeReBlogSettings.php:377
+#: includes/class-RecombeeReRecommsWidget.php:758
+msgid "Min Relevance"
+msgstr "Релевантность"
+
+#: includes/class-RecombeeReBlogSettings.php:377
+#: includes/class-RecombeeReBlogSettings.php:408
+msgid ""
+"Optional. Default \"low\". For recommendations type \"ProductsToProduct\" "
+"specifies the threshold of how much relevant must the recommended items be "
+"to the user. Possible values one of: “low”, “medium”, “high”. The default "
+"value is “low”, meaning that the system attempts to recommend number of "
+"items equal to count at any cost. If there are not enough data (such as "
+"interactions or item properties), this may even lead to bestseller-based "
+"recommendations to be appended to reach the full count. This behavior may be "
+"suppressed by using “medium” or “high” values. In such case, the system only "
+"recommends items of at least the requested relevancy, and may return less "
+"than count items when there is not enough data to fulfill it."
+msgstr ""
+"Опционально. По умолчанию «low». Для рекомендаций c типом "
+"«ProductsToProduct» устанавливает порог релевантности рекомендуемых "
+"продуктов для пользователя. Возможные значения: «low», «medium», «high». "
+"Значение по умолчанию - «low», что означает, что система пытается "
+"рекомендовать количество ghjlernjd, равное запрошенному по числу любой "
+"ценой. Если данных недостаточно (например, взаимодействия или свойств "
+"продукта), это может даже привести к тому, что рекомендации на основе "
+"наиболее продаваемых товаров будут добавлены для требуемого числа. Такое "
+"поведение может быть подавлено с использованием значений «средний» или "
+"«высокий». В этом случае система рекомендует только элементы запрашиваемой "
+"релевантности, и может возвращать меньшее их количество, если для иного "
+"недостаточно данных."
+
+#: includes/class-RecombeeReBlogSettings.php:378
+#: includes/class-RecombeeReRecommsWidget.php:759
+msgid "Rotation Rate"
+msgstr "Ротация"
+
+#: includes/class-RecombeeReBlogSettings.php:378
+#: includes/class-RecombeeReBlogSettings.php:409
+msgid ""
+"Optional. Default Null. For recommendations type \"ProductsToProduct\" if "
+"your users browse the system in real-time, it may easily happen that you "
+"wish to offer them recommendations multiple times. Here comes the question: "
+"how much should the recommendations change? Should they remain the same, or "
+"should they rotate? Recombee API allows you to control this per-request in "
+"backward fashion. You may penalize an item for being recommended in the near "
+"past. For the specific user, rotationRate=1 means maximal rotation, "
+"rotationRate=0 means absolutely no rotation. You may also use, for example "
+"rotationRate=0.2 for only slight rotation of recommended items."
+msgstr ""
+"Опционально. По умолчанию пусто. Для рекомендаций с типом "
+"«ProductsToProduct», если ваши пользователи просматривают сайт в режиме "
+"реального времени, может случиться так, что вы хотите предложить им "
+"рекомендации несколько раз. Здесь возникает вопрос: насколько разными должен "
+"быть их состав? Должны ли они оставаться теми же, или должны менятся? "
+"Recombee API позволяет вам управлять этим. Вы можете исключать продукты, "
+"рекомендованные недавно. Для конкретного покупателя rotationRate = 1 "
+"означает максимальное изменение состава рекомендаций, rotationRate = 0 "
+"означает абсолютно никакого изменения."
+
+#: includes/class-RecombeeReBlogSettings.php:379
+#: includes/class-RecombeeReRecommsWidget.php:760
+msgid "Rotation Time"
+msgstr "Время ротации"
+
+#: includes/class-RecombeeReBlogSettings.php:379
+#: includes/class-RecombeeReBlogSettings.php:410
+msgid ""
+"Optional. Default Null. For recommendations type \"ProductsToProduct\" "
+"taking Rotation Rate into account, specifies how long time it takes to an "
+"item to recover from the penalization. For example, rotationTime=7200.0 "
+"means that items recommended less than 2 hours ago are penalized."
+msgstr ""
+"Опционально. По умолчанию пусто. Для рекомендаций с типом "
+"«ProductsToProduct», когда указан rotationRate, позволяет установить отрезок "
+"времени по истечении которого продукт снова будет включен в рекомендуемый. "
+"Например, rotationTime = 7200.0 означает, что предметы, рекомендованные "
+"более 2 часов назад будут снова рекомендованы."
+
+#: includes/class-RecombeeReBlogSettings.php:392
+msgid "Recombee shortcodes"
+msgstr "Шорткоды Recombee"
+
+#: includes/class-RecombeeReBlogSettings.php:393
+msgid ""
+"Recombee shortcodes emulates the behavior of plugin widget Personal "
+"recommendations, getting all the same parameters: Read each one to use "
+"shortcode as efficiently as possible:"
+msgstr ""
+"Шорткод Recombee фактически эмулирует поведение виджета Персональные "
+"рекомендации, обрабатывая те же самые параметры. Ознакомьтесь с каждым из "
+"них, чтобы использовать виджет максимально эффективно:"
+
+#: includes/class-RecombeeReBlogSettings.php:395
+msgid "parentsOnly"
+msgstr "parentsOnly"
+
+#: includes/class-RecombeeReBlogSettings.php:395
+msgid ""
+"Optional. Default “on”. Can be \"on\", \"off\". Switch this option ON if you "
+"want to exclude varitaions from recommendations. With switched ON only "
+"parent products will be shown."
+msgstr ""
+"Опционально. По умолчанию -“on”. Возможные значения \"on\", \"off\". "
+"Включите эту опцию, если требуется исключить из рекомендаций вариативные "
+"товары. При включенной опции будут выводится только родительские товары."
+
+#: includes/class-RecombeeReBlogSettings.php:396
+msgid "ajaxMode"
+msgstr "ajaxMode"
+
+#: includes/class-RecombeeReBlogSettings.php:396
+msgid ""
+"Optional. Default “on”. Can be \"on\", \"off\". Recommendations are loaded "
+"asynchronously with AJAX mode enabled, and therefore do not increase load "
+"time of the pages at your site. This mode may increase page speed load, but "
+"search engines, probably, will not parse recommendations content."
+msgstr ""
+"Опционально. По умолчанию - “on”. Возможные значения \"on\", \"off\". При "
+"включенном режиме AJAX все страницы, в которых присутствует шорткод "
+"Recombee, будут загружатся не зависимо от скорости ответа сервера Recombee. "
+"Включение этого режима может повысить скорость загрузки страниц, но "
+"поисковые машины, возможно, не увидят контент рекомендаций."
+
+#: includes/class-RecombeeReBlogSettings.php:397
+msgid "followThemeCSS"
+msgstr "followThemeCSS"
+
+#: includes/class-RecombeeReBlogSettings.php:397
+msgid ""
+"Optional. Default “on”. With this option On, the container with the products "
+"will be rendered via the active theme WooCommerce templates and CSS rules. "
+"Otherwise, the original WooCommerce template and styles will be used. Also "
+"if option value is Off plugin does not takes into account parameter \"columns"
+"\"."
+msgstr ""
+"Опционально. По умолчанию - “on”. При значении опции On контейнер с товарами "
+"будет выведен с использованием шаблонов и стилей WooCommerce активной темы. "
+"В противном случае будут использованы оригинальные шаблоны и стили "
+"WooCommerce. Также при значении опции Off плагин не учитывает параметр "
+"\"columns\"."
+
+#: includes/class-RecombeeReBlogSettings.php:398
+msgid "suppress"
+msgstr "suppress"
+
+#: includes/class-RecombeeReBlogSettings.php:398
+msgid ""
+"Optional. Default “off”. This option allows to enable or disable the output "
+"of recommendations on individual pages of the site. It can take a value that "
+"consists of two parts: suppress logic (“off”, “exclude”, “include”) and the "
+"post(s) or post's taxonomy terms, where it will be applied (comma separated "
+"object's id). “off” - the option is disabled and recommendations are "
+"displayed everywhere, “exclude” - recommendations are displayed everywhere, "
+"except for the specified post's ID or posts, that belongs to specified "
+"taxonomy term's ID, “include” - recommendations are displayed only at the "
+"specified post's or post's, that belongs to specified taxonomy term's ID. "
+"Examples: <span class=\"code\">suppress=\"include post 12, 55, 21\"</span> "
+"<span class=\"code\">suppress=\"exclude post 12, 55, 21\"</span> <span class="
+"\"code\">suppress=\"include terms 45, 32, 11\"</span> <span class=\"code"
+"\">suppress=\"exclude terms 67, 2, 9\"</span> <span class=\"code\">suppress="
+"\"off\"</span>"
+msgstr ""
+"Опционально. По умолчанию - “off”. Эта опция позволяет включать или "
+"выключать вывод в зависимости от текущей страницы сайта. Она принимает "
+"значение, которое состоит из двух частей: логика подавления (“off”, "
+"“exclude”, “include”) и запись(и) или термины таксономии, к которым "
+"принадлежит запись(и) для которых будет применена логика (id объектов, "
+"разделенные запятыми). “off” - опция выключена и рекомендации выводятся "
+"везде, “exclude” - рекомендации выводятся везде, за исключением ID "
+"перечисленных записей или записей, которые принадлежат к перечисленным ID "
+"терминов таксономий, “include” - рекомендации выводятся только на записях c "
+"перечисленными ID или записях, которые принадлежат к перечисленным ID "
+"терминов таксономий. Примеры: <span class=\"code\">suppress=\"include post "
+"12, 55, 21\"</span> <span class=\"code\">suppress=\"exclude post 12, 55, "
+"21\"</span> <span class=\"code\">suppress=\"include terms 45, 32, 11\"</"
+"span> <span class=\"code\">suppress=\"exclude terms 67, 2, 9\"</span> <span "
+"class=\"code\">suppress=\"off\"</span>"
+
+#: includes/class-RecombeeReBlogSettings.php:399
+msgid "wTitle"
+msgstr "wtitle"
+
+#: includes/class-RecombeeReBlogSettings.php:400
+msgid "columns"
+msgstr "columns"
+
+#: includes/class-RecombeeReBlogSettings.php:400
+msgid ""
+"Default 3 for “followThemeCSS=off” & for “followThemeCSS=on” default will be "
+"taken form “WooCommerce Products per raw” value. Integer between 0 & 9 "
+"inclusive. The maximum number of columns to which widget content will be "
+"divided if possible (depends on free space inside widget container)"
+msgstr ""
+"По умолчанию 3 для “followThemeCSS=off” & для “followThemeCSS=on” значение "
+"по умолчанию будет взято из значения параметра “WooCommerce количество "
+"товаров в ряду”. Целое число между 0 и 9 включительно. Максимальное "
+"количество колонок, на которое будет разбит контент виджета если это "
+"возможно (зависит от свободного места внутри контейнера виджета)"
+
+#: includes/class-RecombeeReBlogSettings.php:401
+msgid "type"
+msgstr "type"
+
+#: includes/class-RecombeeReBlogSettings.php:402
+msgid "count"
+msgstr "count"
+
+#: includes/class-RecombeeReBlogSettings.php:402
+msgid "Default 4. Number of items to be recommended"
+msgstr "По умолчанию 4. Количество возвращенных рекомендаций"
+
+#: includes/class-RecombeeReBlogSettings.php:403
+msgid "scenario"
+msgstr "scenario"
+
+#: includes/class-RecombeeReBlogSettings.php:404
+msgid "UserImpact"
+msgstr "UserImpact"
+
+#: includes/class-RecombeeReBlogSettings.php:404
+msgid ""
+"Default 0 and only for type = \"ProductsToProduct\". Generated products are "
+"biased towards the user given. Using userImpact, you may control this bias. "
+"For an extreme case of userImpact=0.0, the interactions made by the user are "
+"not taken into account at all (with the exception of history-based "
+"blacklisting), for userImpact=1.0, you’ll get user-based recommendation."
+msgstr ""
+"По умолчанию 0 и только для типа \"ProductsToProduct\". Сгенерированные "
+"элементы учитывают взаимодействия пользователя. Используя userImpact, вы "
+"можете контролировать это смещение. Для userImpact = 0.0 взаимодействия "
+"вообще не учитываются (за исключением черных списков на основе истории), для "
+"userImpact = 1.0 вы получите рекомендацию, основанную на пользовательских "
+"взаимодействиях."
+
+#: includes/class-RecombeeReBlogSettings.php:405
+msgid "filter"
+msgstr "filter"
+
+#: includes/class-RecombeeReBlogSettings.php:405
+#, php-format
+msgid ""
+"Optional. Default empty. Boolean-returning %s expression which allows you to "
+"filter recommended items based on the values of their attributes. Predefined "
+"value is <span class=\"code\">'wpStatus' != `deleted`</span>. Attention: if "
+"you use your own ReQL expression within shortcode - be sure to use single "
+"back quotes instead of double quotes (due to shortcode limitations), like "
+"<span class=\"code\">\"data\" -> `data`</span> Example: <span class=\"code"
+"\">filter=\"`simple` in 'wcProductType'\"</span> and replace <span class="
+"\"code\">[]</span> with <span class=\"code\">{}</span>"
+msgstr ""
+"Опиционально. По умолчанию - пустая строка. %s выражение, которое позволяет "
+"Вам фильтровать состав рекомендаций, на основе их свойств их единиц. "
+"Предустановленное значение <span class=\"code\">'wpStatus' != `deleted`</"
+"span>. Внимание: если Вы используете собственное ReQL выражение - "
+"обязательно замените двойные кавычки на обратную одинарную, следующим "
+"образом: <span class=\"code\">\"data\" -> `data`</span> Например: <span "
+"class=\"code\">filter=\"`simple` in 'wcProductType'\"</span>и замените <span "
+"class=\"code\">[]</span> на <span class=\"code\">{}</span>"
+
+#: includes/class-RecombeeReBlogSettings.php:406
+msgid "booster"
+msgstr "booster"
+
+#: includes/class-RecombeeReBlogSettings.php:406
+#, php-format
+msgid ""
+"Optional. Default empty. Number-returning %s expression which allows you to "
+"boost recommendation rate of some items based on the values of their "
+"attributes. Predefined value is <span class=\"code\">if 'wcRegularPrice' > "
+"context_item{`wcRegularPrice`} then 1.5 else 1\"</span>. Attention: if you "
+"use your own ReQL expression within shortcode - be sure to use single back "
+"quotes instead of double quotes (due to shortcode limitations), like <span "
+"class=\"code\">\"data\" -> `data`</span> Example: <span class=\"code"
+"\">filter=\"`simple` in 'wcProductType'\"</span> and replace <span class="
+"\"code\">[]</span> with <span class=\"code\">{}</span>"
+msgstr ""
+"Опиционально. По умолчанию - пустая строка. %s выражение, которое позволяет "
+"Вам фильтровать состав рекомендаций, на основе их свойств их единиц. "
+"Предустановленное значение <span class=\"code\">'wpStatus' != `deleted`</"
+"span>. Внимание: если Вы используете собственное ReQL выражение - "
+"обязательно замените двойные кавычки на обратную одинарную, следующим "
+"образом: <span class=\"code\">\"data\" -> `data`</span> Например: <span "
+"class=\"code\">filter=\"`simple` in 'wcProductType'\"</span> и замените "
+"<span class=\"code\">[]</span> на <span class=\"code\">{}</span>"
+
+#: includes/class-RecombeeReBlogSettings.php:407
+msgid "diversity"
+msgstr "diversity"
+
+#: includes/class-RecombeeReBlogSettings.php:407
+msgid ""
+"Default Null. Real 0.0 <= number <= 1.0 which determines how much mutually "
+"dissimilar should the recommended items be. The default value is 0.0, i.e., "
+"no diversification. Value 1.0 means maximal diversification."
+msgstr ""
+"По умолчанию пустая строка. Действительное 0.0 <= число <= 1.0, которое "
+"определяет, насколько сильно должны различатся рекомендуемые продукты. "
+"Значение по умолчанию - 0.0, т.е. нет отличий. Значение 1.0 означает "
+"максимальные отличия."
+
+#: includes/class-RecombeeReBlogSettings.php:408
+msgid "minRelevance"
+msgstr "minRelevance"
+
+#: includes/class-RecombeeReBlogSettings.php:409
+msgid "rotationRate"
+msgstr "rotationRate"
+
+#: includes/class-RecombeeReBlogSettings.php:410
+msgid "rotationTime"
+msgstr "rotationTime"
+
+#: includes/class-RecombeeReBlogSettings.php:412
+msgid ""
+"Real example: [RecombeeRecommendations wTitle=\"Recommended for You\" type="
+"\"ProductsToProduct\" count=\"3\" userImpact=\"0\" filter=\"`simple` in "
+"'wcProductType'\"]"
+msgstr ""
+"Реальный пример: [RecombeeRecommendations wTitle=\"Recommended for You\" "
+"type=\"ProductsToProduct\" count=\"3\" userImpact=\"0\" filter=\"`simple` in "
+"'wcProductType'\"]"
+
+#: includes/class-RecombeeReBlogSettings.php:426
+msgid "Lost connection"
+msgstr "Соединение потеряно"
+
+#: includes/class-RecombeeReBlogSettings.php:430
+#: includes/class-RecombeeReBlogSettings.php:438
+msgid "Disconnected (Connect)"
+msgstr "Отключено (Подключить)"
+
+#: includes/class-RecombeeReBlogSettings.php:431
+#: includes/class-RecombeeReBlogSettings.php:442
+msgid "Connected (Disconnect)"
+msgstr "Подключено (Отключить)"
+
+#: includes/class-RecombeeReBlogSettings.php:446
+msgid "Unknown DB connection status"
+msgstr "Неизвестный стастус соединения с базой данных"
+
+#: includes/class-RecombeeReBlogSettings.php:453
+msgid ""
+"Select which WC product properties will be synchronized. * - required "
+"properties - may not be removed."
+msgstr ""
+"Укажите необходимые для синхронизации свойства Продуктов WC, которые будут "
+"синхронизироваться. * - обязательные свойства - не могут быть удалены."
+
+#: includes/class-RecombeeReBlogSettings.php:458
+msgid ""
+"Select which WC customer properties will be synchronized. * - required "
+"properties - may not be removed."
+msgstr ""
+"Укажите необходимые для синхронизации свойства Покупателей WC, которые будут "
+"синхронизироваться. * - обязательные свойства - не могут быть удалены."
+
+#: includes/class-RecombeeReBlogSettings.php:472
+#: includes/class-RecombeeReBlogSettings.php:495
+#: includes/class-RecombeeReBlogSettings.php:518
+#: includes/class-RecombeeReBlogSettings.php:541
+#: includes/class-RecombeeReBlogSettings.php:577
+#: includes/class-RecombeeReBlogSettings.php:591
+msgid "Never"
+msgstr "Никогда"
+
+#: includes/class-RecombeeReBlogSettings.php:478
+#: includes/class-RecombeeReBlogSettings.php:501
+#: includes/class-RecombeeReBlogSettings.php:524
+#: includes/class-RecombeeReBlogSettings.php:547
+#: includes/class-RecombeeReBlogSettings.php:583
+msgid "Current progress (synced / of / errors): "
+msgstr "Текущий прогресс (синхронизировано / из / ошибок): "
+
+#: includes/class-RecombeeReBlogSettings.php:479
+#, php-format
+msgid ""
+"Synchronize properties selected in in WC Product Properties field. This will "
+"create columns for the product properties in your Recombee database. Also, "
+"if you removed some previously synchronized product properties, the "
+"respective columns will be irreversibly removed from the Recombee database. "
+"Last successful synchronization: %s"
+msgstr ""
+"Синхронизирует свойства, сохраненные в опции Набор свойств Продуктов WC. "
+"Обратите внимание, это настройка только для создания/удаления "
+"соответствующих колонок в базе данных Recombee. Кроме того, в ходе "
+"исполнения не нужные колонки удаляются из базы Recombee безвозвратно вместе "
+"с данными. Последняя успешная синхронизация: %s"
+
+#: includes/class-RecombeeReBlogSettings.php:502
+#, php-format
+msgid ""
+"Synchronize properties selected in WC Customer Properties field. This will "
+"create columns for the customer properties in your Recombee database. Also, "
+"if you removed some previously synchronized customer properties, the "
+"respective columns will irreversibly be removed from the Recombee database. "
+"Last successful synchronization: %s"
+msgstr ""
+"Синхронизирует свойства, сохраненные в опции Набор свойств Покупателей WC. "
+"Обратите внимание, это настройка только для создания/удаления "
+"соответствующих колонок в базе данных Recombee. Кроме того, в ходе "
+"исполнения не нужные колонки удаляются из базы Recombee безвозвратно вместе "
+"с данными. Последняя успешная синхронизация: %s"
+
+#: includes/class-RecombeeReBlogSettings.php:525
+#, php-format
+msgid ""
+"Synchronize all the products to Recombee along with their attributes & "
+"variations. Last successful synchronization: %s"
+msgstr ""
+"Все товары Вашего магазина будут созданы в базе данных Recombee, в т.ч. их "
+"атрибуты и вариации. Последняя успешная синхронизация: %s"
+
+#: includes/class-RecombeeReBlogSettings.php:548
+#, php-format
+msgid ""
+"Synchronize all the customers to Recombee. No personal data (such as e-mail) "
+"will be synchronized. Keep in mind - your shop customers are being tracked "
+"by interactions at your shop (purchases, additions to cart, views…) and not "
+"by WP Users! Last successful synchronization: %s"
+msgstr ""
+"Все покупатели Вашего магазина будут созданы в базе данных Recombee. Никакие "
+"персональные данные не будут переданы, в т.ч. e-mail, сайт и т.д. имейте "
+"ввиду - покупатели Вашего магазина отслеживаются по заказам, а не по "
+"пользователям WP!Последняя успешная синхронизация: %s"
+
+#: includes/class-RecombeeReBlogSettings.php:584
+#, php-format
+msgid ""
+"Synchronize interactions between customers and products (purchases, ratings, "
+"views) to Recombee. Last successful synchronization: %s"
+msgstr ""
+"Синхронизирует взаимодействия между покупателями и продуктами (покупки, "
+"отзывы, просмотры) с Recombee. Последняя успешная синхронизация: %s"
+
+#: includes/class-RecombeeReBlogSettings.php:597
+#, php-format
+msgid ""
+"Completely erase your database at Recombee. This action is irreversible. "
+"Last successful reset: %s"
+msgstr ""
+"Полночтью очистит базу данных Recombee. Действие необратимо. Последний "
+"успешая очистка: %s"
+
+#: includes/class-RecombeeReBlogSettings.php:603
+msgid ""
+"Number of records in one data chunk sent to Recombee during synchronization. "
+"Decrease the chunk size if your server terminates the synchronization script "
+"due to exceeding «max_execution_time»."
+msgstr ""
+"Количество записей внутриотдельного запроса, которые будут отправлены в "
+"Recombee  во время синхронизации. Уменьшите значение если ваш сервер "
+"прерывает синхронизацию по достижении допустимого времени, отведенного "
+"директивой «max_execution_time»."
+
+#: includes/class-RecombeeReBlogSettings.php:636
+msgid "Recombee Engine"
+msgstr "Ядро Recombee"
+
+#: includes/class-RecombeeReBlogSettings.php:638
+msgid ""
+"Your credentials are correct. Do you wish to start the initial "
+"synchronization of your WC data to Recombee? (these data include products, "
+"customers and interactions between customers and products). Click OK to "
+"launch initial synchronization now. Click Cancel if you wish to execute it "
+"later manually.|ATTENTION! It is assumed that your database at Recombee is "
+"empty now."
+msgstr ""
+"Данные подключения к базе верны. Хотите запустить первичную синхронизацию WC "
+"данных сейчас? (к ним относятся Продукты, Покупатели и взаимодействия "
+"Покупателей). Нажмите OK чтобы запустить синхронизацию. Нажмите Cancel если "
+"вы хотите выполнить ее позднее самостоятельно.|ВНИМАНЕИ! Предполагается, что "
+"сейчас база данных пуста."
+
+#: includes/class-RecombeeReBlogSettings.php:639
+#, php-format
+msgid ""
+"You should start by creating an account at %s. There you get the credentials "
+"(ID of your database and corresponding secret key) that you copy to this "
+"plugin. Then you can continue with synchronization of data to your Recombee "
+"database.|Now we will select all available products and customers properties "
+"for you automatically"
+msgstr ""
+"Сначала вам необходимо создать учетную запись на %s. Так вы сможете получить "
+"данные доступа (имя базы данных и соответствующие секретный ключ), который "
+"сможете указать в плагине. Только после этого можно приступить к "
+"синхронизации данных с базой Recombee.|Сейчас вы выберем автоматически все "
+"доступные свойства товаров и продуктов"
+
+#: includes/class-RecombeeReBlogSettings.php:641
+msgid "Disconnected at start"
+msgstr "Отсоединено в начало"
+
+#: includes/class-RecombeeReBlogSettings.php:645
+msgid "Reseted"
+msgstr "Очищено"
+
+#: includes/class-RecombeeReBlogSettings.php:646
+msgid ""
+"You are about to reset your database at Recombee. This action does not "
+"remove database itself, but completely erases its content. Click OK to "
+"activate the Launch Reset button, then click Launch Reset again to perform "
+"the reset. This operation is irreversible."
+msgstr ""
+"Вы собираетесь сбросить базу данных в Recombee. Это действие не удаляет базу "
+"данных, а полностью очищает ее содержимое. Нажмите «ОК», чтобы активировать "
+"функцию «Сброс базы данных», затем нажмите «Выполнить сброс» снова, чтобы "
+"запустить событие. Операция необратима."
+
+#: includes/class-RecombeeReBlogSettings.php:647
+msgid ""
+"To be able to synchronize shop customers interactions you have to "
+"synchronize WC Product Properties & WC Customer Properties & WC Products & "
+"WC Customers first."
+msgstr ""
+"Чтобы синхронизировать взаимодействие покупателей магазина, вы должны "
+"сначала синхронизировать свойства Продуктов и Покупателей WC, Продукты WC и "
+"Покупателей WC."
+
+#: includes/class-RecombeeReBlogSettings.php:675
+msgid "Recombee Warning!!"
+msgstr "Предупреждение Recombee!!"
+
+#: includes/class-RecombeeReBlogSettings.php:677
+msgid ""
+"You need to install and activate WooCommerce plugin before using Recombee "
+"Recommendation Engine."
+msgstr ""
+"Чтобы использовать Recombee Recommendation Engine необходимо сначала "
+"установить плагин WooCommerce."
+
+#: includes/class-RecombeeReBlogSettings.php:693
+msgid "Database & Key"
+msgstr "База данных и ключ"
+
+#: includes/class-RecombeeReBlogSettings.php:693
+#, php-format
+msgid "Visit %s to get ID of your database and corresponding secret key"
+msgstr "Посетите %s для получения API идентификатора и Секретного ключа"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:57
+msgid "Database successfully connected"
+msgstr "База данных успешно подключена"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:57
+msgid "Database successfully disconnected"
+msgstr "База данных успешно отключена"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:62
+msgid "Internal operation error"
+msgstr "Ошибка внутренней операции"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:66
+msgid "Credentials for connecting to your Recombee database not found"
+msgstr "Учетные данные соединения с базой Recombee не обнаружены"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:74
+#: includes/class-RecombeeReBlogSettingsDb.php:220
+#: includes/class-RecombeeReBlogSettingsDb.php:371
+#: includes/class-RecombeeReBlogSettingsDb.php:516
+#: includes/class-RecombeeReBlogSettingsDb.php:655
+#: includes/class-RecombeeReBlogSettingsDb.php:871
+#: includes/class-RecombeeReBlogSettingsDb.php:930
+#: includes/class-RecombeeReRecommsWidget.php:508
+msgid "Access violation for this page. Reload it & repeat."
+msgstr "Нарушение прав доступа к странице. Перегрузить & повторить."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:147
+#, php-format
+msgid ""
+"WC Product Properties for Database <strong>%s</strong> were successfully "
+"synchronized."
+msgstr ""
+"Продукты WC для базы данных <strong>%s</strong> синхронизированы без ошибок."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:162
+msgid ""
+"An error occurred during WC Product Properties synchronization. See requests-"
+"errors.log fo extra information"
+msgstr ""
+"Синхронизация Продуктов WC завершилась с ошибками. Подробности сохранены в "
+"requests-errors.log"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:181
+#: includes/class-RecombeeReBlogSettingsDb.php:332
+msgid "Everything is already in synced to Recombee"
+msgstr "Все уже синхронизировано с Recombee"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:197
+#: includes/class-RecombeeReBlogSettingsDb.php:348
+msgid ""
+"An error occurred during getting current Recombee Database properties. See "
+"requests-errors.log for extra information."
+msgstr ""
+"В процессе получения свойств текущей базы данных возникли ошибки. "
+"Подробности сохранены в requests-errors.log."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:215
+msgid "There are no saved product properties. Nothing to sync."
+msgstr "Нет сохраненных свойств продуктов. Нечего синхронизировать."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:298
+#, php-format
+msgid ""
+"WC Customer Properties for DataBase <strong>%s</strong> were successfully "
+"synchronized."
+msgstr ""
+"Свойства Покупателей WC для базы данных <strong>%s</strong> синхронизированы "
+"без ошибок."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:313
+msgid ""
+"An error occurred during WC Customer Properties synchronization. See "
+"requests-errors.log fo extra information."
+msgstr ""
+"Синхронизация Покупателей WC завершилась с ошибками. Подробности сохранены в "
+"requests-errors.log."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:366
+msgid "There are no saved customer properties. Nothing to sync."
+msgstr "Нет сохраненных свойств покупателей. Нечего синхронизировать."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:472
+#, php-format
+msgid "<strong>%s</strong> WC Products synchronized"
+msgstr "<strong>%s</strong> Продуктов WC синхронизировано"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:495
+#, php-format
+msgid ""
+"WC Products for DataBase <strong>%1$s</strong> synchronized. Errors: %2$s"
+msgstr ""
+"Продукты WC для базы данных <strong>%1$s</strong> синхронизированы. Ошибок: "
+"%2$s"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:507
+msgid ""
+"An error occurred during WC Products synchronization. See requests-errors."
+"log fo extra information."
+msgstr ""
+"Синхронизация Продуктов WC завершилась с ошибками. Подробности сохранены в "
+"requests-errors.log."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:512
+msgid "Your shop have no products yet."
+msgstr "В вашем магазине еще нет товаров."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:611
+#, php-format
+msgid "<strong>%s</strong> WC Customers synchronized"
+msgstr "<strong>%s</strong> Покупателей WC синхронизировано"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:634
+#, php-format
+msgid ""
+"WC Customers for Database <strong>%1$s</strong> synchronized. Errors: %2$s"
+msgstr ""
+"Покупатели WC для базы данных <strong>%1$s</strong> синхронизированы. "
+"Ошибок: %2$s"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:646
+msgid ""
+"An error occurred during WC Customers synchronization. See requests-errors."
+"log fo extra information."
+msgstr ""
+"Синхронизация Покупателей WC завершилась с ошибками. Подробности сохранены в "
+"requests-errors.log."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:651
+msgid "Your shop have no any customers yet (neither registered nor anonymous)."
+msgstr ""
+"В вашем магазине еще нет покупателей (ни зарегестрированных, ни анонимных)"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:833
+#, php-format
+msgid ""
+"WC Users Interactions (Purchases, Products views, Ratings, Cart Additions) "
+"for Database <strong>%s</strong> synchronized"
+msgstr ""
+"Взаимодействия (Покупки, Просмотры товара, Оценки, Добавление в корзину) "
+"Покупателей WC для базы данных <strong>%s</strong> синхронизированы"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:845
+msgid ""
+"An error occurred during WC Customers interactions synchronization. See "
+"requests-errors.log fo extra information."
+msgstr ""
+"Синхронизация взаимодействий Покупателей WC завершилась с ошибками. "
+"Подробности сохранены в requests-errors.log."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:862
+#, php-format
+msgid "<strong>%s</strong> WC Customers interactions synchronized"
+msgstr "<strong>%s</strong> взаимодействий Покупателей WC синхронизировано"
+
+#: includes/class-RecombeeReBlogSettingsDb.php:867
+msgid ""
+"Your Shop have no interactions (no purchases, product views, ratings, "
+"additions to cart) yet."
+msgstr ""
+"В Вашем магазине еще нет ни Покупок, ни Продуктов, ни отзывов о Продуктах, "
+"ни Добавлений в корзину."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:917
+#, php-format
+msgid "Database <strong>%s</strong> reset request queued. Please, wait."
+msgstr ""
+"Запрос на очистку базы данных <strong>%s</strong> поставлен в очередь. "
+"Ожидайте."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:924
+#, php-format
+msgid ""
+"An error occurred during DataBase reset: <i>%s</i>.<br>See requests-errors."
+"log for extra information."
+msgstr ""
+"Процесс очистки базы данных завершился с ошибками: <i>%s</i>.<br>Подробности "
+"сохранены в requests-errors.log."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:1172
+#, php-format
+msgid ""
+"There was an error on adding new product attribute to Recombee. See <i>%s</"
+"i> for extra information."
+msgstr ""
+"Добавление нового атрибута товара завершилось с ошибками. Подробности "
+"смотрите в  <i>%s</i>."
+
+#: includes/class-RecombeeReBlogSettingsDb.php:1204
+#, php-format
+msgid ""
+"There was an error on adding new product property to Recombee. See <i>%s</i> "
+"for extra information."
+msgstr ""
+"Добавление нового свойства товара завершилось с ошибками. Подробности "
+"смотрите в <i>%s</i>."
+
+#: includes/class-RecombeeReRecommsWidget.php:21
+#: includes/data-BlogSettingsArgs.php:25
+msgid "Recombee"
+msgstr "Recombee"
+
+#: includes/class-RecombeeReRecommsWidget.php:21
+msgid "Personalized recommendations"
+msgstr "Персональные рекомендации"
+
+#: includes/class-RecombeeReRecommsWidget.php:24
+msgid "Widget outputs recommended products based on widget parameters."
+msgstr "Виджет выводит рекомендуемые продукты на основе параметров виджета."
+
+#: includes/class-RecombeeReRecommsWidget.php:102
+#, php-format
+msgid ""
+"Recombee prevented due to rule: current post ID \"%1$s\" was found in "
+"processed posts IDs: \"%2$s\", while the logic is \"%3$s\" and processed "
+"objects types was \"%4$s\". "
+msgstr ""
+"Recombee отключен в соответствии с правилом: ID текущей записи \"%1$s\" "
+"обнаружен в обработанных ID записей: \"%2$s\", логика была \"%3$s\" и типы "
+"обработанных объектов были \"%4$s\". "
+
+#: includes/class-RecombeeReRecommsWidget.php:112
+#, php-format
+msgid ""
+"Recombee prevented due to rule: current post ID \"%1$s\" was not found in "
+"processed posts IDs: \"%2$s\", while the logic is \"%3$s\" and processed "
+"objects types was \"%4$s\". "
+msgstr ""
+"Recombee отключен в соответствии с правилом: ID текущей записи \"%1$s\" не "
+"обнаружен ни в одном из обработанных ID записей: \"%2$s\", логика была \"%3$s"
+"\" и типы обработанных объектов были \"%4$s\". "
+
+#: includes/class-RecombeeReRecommsWidget.php:119
+#, php-format
+msgid ""
+"Recombee prevented due to undefined rule logic: current post was \"%1$s\", "
+"processed posts IDs was: \"%2$s\", the undefined logic was \"%3$s\" and "
+"processed objects types was \"%4$s\". "
+msgstr ""
+"Recombee отключен по причине обнаружения неопределенного правила логики: "
+"текущая запись была \"%1$s\", обработанные ID терминов были: \"%2$s\", "
+"неопределенный тип логики был\"%3$s\" и типы обработанных объектов были "
+"\"%4$s\". "
+
+#: includes/class-RecombeeReRecommsWidget.php:140
+#, php-format
+msgid ""
+"Recombee prevented due to rule: current post \"%1$s\" belongs to one or more "
+"of processed terms IDs: \"%2$s\", while the logic was \"%3$s\" and processed "
+"objects types was \"%4$s\". "
+msgstr ""
+"Recombee отключен в соответствии с правилом: текущая запись \"%1$s\" "
+"принадлежит к одному или более из обработанных ID терминов: \"%2$s\", логика "
+"была\"%3$s\" и типы обработанных объектов были \"%4$s\". "
+
+#: includes/class-RecombeeReRecommsWidget.php:153
+#, php-format
+msgid ""
+"Recombee prevented due to rule: current post \"%1$s\" does not belongs to "
+"one or more of processed terms IDs: \"%2$s\", while the logic was \"%3$s\" "
+"and processed objects types was \"%4$s\". "
+msgstr ""
+"Recombee отключен в соответствии с правилом: текущая запись \"%1$s\" не "
+"принадлежит ни к одному из обработанных ID терминов: \"%2$s\", логика была"
+"\"%3$s\" и типы обработанных объектов были \"%4$s\". "
+
+#: includes/class-RecombeeReRecommsWidget.php:160
+#, php-format
+msgid ""
+"Recombee prevented due to undefined rule logic: current post was \"%1$s\", "
+"processed terms IDs was: \"%2$s\", the undefined logic was \"%3$s\" and "
+"processed objects types was \"%4$s\". "
+msgstr ""
+"Recombee отключен по причине обнаружения неопределенного правила логики: "
+"текущая запись была \"%1$s\", обработанные ID терминов были: \"%2$s\", "
+"неопределенный тип логики был \"%3$s\" и типы обработанных объектов были "
+"\"%4$s\". "
+
+#: includes/class-RecombeeReRecommsWidget.php:167
+#, php-format
+msgid ""
+"Recombee prevented due to undefined processed objects types: current post "
+"was \"%1$s\", processed terms IDs was: \"%2$s\", the logic was \"%3$s\" and "
+"the undefined processed objects types was \"%4$s\". "
+msgstr ""
+"Recombee отключен по причине обнаружения неопределенного типа объекта: "
+"текущая запись была \"%1$s\", обработанные ID терминов были: \"%2$s\", "
+"логика была \"%3$s\" и неопределенный тип обработанного объекта был \"%4$s"
+"\". "
+
+#: includes/class-RecombeeReRecommsWidget.php:232
+msgid "Detected illegal parameter(s) in widget: "
+msgstr "Обнаружен некорректный параметр(ы) виджета: "
+
+#: includes/class-RecombeeReRecommsWidget.php:258
+msgid ""
+"You have disconnected from recombee database, receiving recommendations is "
+"impossible."
+msgstr ""
+"Вы отключились от базы данных Recombee, получение рекомендаций невозможно."
+
+#: includes/class-RecombeeReRecommsWidget.php:286
+msgid ""
+"Widget with setting \"Products to Product\" can be used only at a product "
+"page."
+msgstr ""
+"Виджет с настройкой «Продукты Продукту» выводит контент только на странице "
+"продукта."
+
+#: includes/class-RecombeeReRecommsWidget.php:313
+msgid ""
+"Widget with setting \"Customers to Product\" has nothing to output anywhere, "
+"except product page."
+msgstr ""
+"Виджет с настройкой «Покупатели Продукту» выводит контент только на странице "
+"продукта."
+
+#: includes/class-RecombeeReRecommsWidget.php:320
+#, php-format
+msgid "Wrong widget type setting: \"%s\"."
+msgstr "Неверная настройка типа виджета: \"%s\"."
+
+#: includes/class-RecombeeReRecommsWidget.php:327
+#: includes/class-RecombeeReRecommsWidget.php:425
+#: includes/class-RecombeeReRecommsWidget.php:442
+#: includes/class-RecombeeReRecommsWidget.php:1149
+#: includes/class-RecombeeReRecommsWidget.php:1155
+#: includes/class-RecombeeReRecommsWidget.php:1235
+#: includes/class-RecombeeReRecommsWidget.php:1245
+#, php-format
+msgid "Widget %s says:"
+msgstr "Widget %s отвечает:"
+
+#: includes/class-RecombeeReRecommsWidget.php:424
+msgid ""
+"Temporary data for building content is empty. There is nothing to output."
+msgstr "Временные данные для вывода контента пусты. Нечего выводить."
+
+#: includes/class-RecombeeReRecommsWidget.php:672
+msgid "Products to Customer"
+msgstr "Продукты Покупателю"
+
+#: includes/class-RecombeeReRecommsWidget.php:678
+msgid "Products to Product"
+msgstr "Продукты Продукту"
+
+#: includes/class-RecombeeReRecommsWidget.php:684
+msgid "Customers To Customer"
+msgstr "Покупатели Покупателю"
+
+#: includes/class-RecombeeReRecommsWidget.php:690
+msgid "Customers To Product"
+msgstr "Покупатели Продукту"
+
+#: includes/class-RecombeeReRecommsWidget.php:743
+msgid "Parent products only"
+msgstr "Только родительские товары"
+
+#: includes/class-RecombeeReRecommsWidget.php:744
+msgid "Enable AJAX mode"
+msgstr "Включить режим AJAX"
+
+#: includes/class-RecombeeReRecommsWidget.php:746
+msgid " - off"
+msgstr " - выключено"
+
+#: includes/class-RecombeeReRecommsWidget.php:747
+msgid " - everywhere, excluding objects"
+msgstr " - везде, исключая объекты"
+
+#: includes/class-RecombeeReRecommsWidget.php:748
+msgid " - only at objects"
+msgstr " - только для объектов"
+
+#: includes/class-RecombeeReRecommsWidget.php:755
+msgid "Filter (dbl click to unlock)"
+msgstr "Фильтр (двойной клик, чтобы разблокировать)"
+
+#: includes/class-RecombeeReRecommsWidget.php:756
+msgid ""
+"Booster (<span class=\"booster_statement\">if this expression is true...</"
+"span>)"
+msgstr ""
+"Бустер (<span class=\"booster_statement\">если это выражение справедливо...</"
+"span>)"
+
+#: includes/class-RecombeeReRecommsWidget.php:764
+msgid "Post ID, slug or name... 2 characters min."
+msgstr "ID записи, слаг или имя... 2 символа мин."
+
+#: includes/class-RecombeeReRecommsWidget.php:765
+msgid "Term ID, slug or name... 2 characters min."
+msgstr "ID термина, слаг или имя... 2 символа мин."
+
+#: includes/class-RecombeeReRecommsWidget.php:767
+msgid "Any text. HTML allowed"
+msgstr "Любой текст. HTML допускается"
+
+#: includes/class-RecombeeReRecommsWidget.php:768
+msgid "Integer between 0 & 9 inclusive"
+msgstr "Число мжду 1 и 9 включительно"
+
+#: includes/class-RecombeeReRecommsWidget.php:769
+msgid "Any number greater then 0"
+msgstr "Любое число больше 0"
+
+#: includes/class-RecombeeReRecommsWidget.php:770
+msgid "Any text within [a-zA-Z0-9_\\-#:]"
+msgstr "Любой текст по условию [a-zA-Z0-9_\\-#:]"
+
+#: includes/class-RecombeeReRecommsWidget.php:771
+#: includes/class-RecombeeReRecommsWidget.php:774
+#: includes/class-RecombeeReRecommsWidget.php:775
+msgid "Number between 0 and 1 inclusive or empty string"
+msgstr "Число мжду 0 и 1 включительно или пустая строка"
+
+#: includes/class-RecombeeReRecommsWidget.php:772
+#: includes/class-RecombeeReRecommsWidget.php:773
+msgid "Any valid ReQL expression or empty string"
+msgstr "Любое валидное ReQL выражение или пустая строка"
+
+#: includes/class-RecombeeReRecommsWidget.php:776
+msgid "Number greater then 0 or empty string"
+msgstr "Число больше 0 или пустая строка"
+
+#: includes/class-RecombeeReRecommsWidget.php:824
+#, php-format
+msgid ""
+"Your site is not connected to a Recombee Database yet. This widget will "
+"outputs nothing until it`s true. Setup connection at %s."
+msgstr ""
+"Ваш сайт не подключен к какой-либо из баз данных Recombee. Этот виджет не "
+"выведет ничего, пока это так. Настройте соединение здесь %s."
+
+#: includes/class-RecombeeReRecommsWidget.php:828
+#, php-format
+msgid "For explanation and understanding each parameter click %s at this page."
+msgstr "Для объяснений и понимания каждого кликните %s на этой странице."
+
+#: includes/class-RecombeeReRecommsWidget.php:867
+msgid "Current value is not available anymore, select another one"
+msgstr "Текущее значение больше не существует, выберите дургое"
+
+#: includes/class-RecombeeReRecommsWidget.php:909
+msgid "* Toggle objects type:"
+msgstr "* Переключить тип объектов:"
+
+#: includes/class-RecombeeReRecommsWidget.php:911
+msgid "Posts"
+msgstr "Записи"
+
+#: includes/class-RecombeeReRecommsWidget.php:911
+msgid "Terms"
+msgstr "Термины"
+
+#: includes/class-RecombeeReRecommsWidget.php:944
+msgid "* - only one type saves"
+msgstr "* - сохраняется только один тип"
+
+#: includes/class-RecombeeReRecommsWidget.php:949
+msgid "Expert options"
+msgstr "Экспертные настройки"
+
+#: includes/class-RecombeeReRecommsWidget.php:957
+msgid "Query constructor for filter"
+msgstr "Построитель запроса для параметра filter"
+
+#: includes/class-RecombeeReRecommsWidget.php:958
+msgid "Get Filter query expression"
+msgstr "Получить выражение параметра Filter"
+
+#: includes/class-RecombeeReRecommsWidget.php:959
+#: includes/class-RecombeeReRecommsWidget.php:970
+msgid "Clear query field"
+msgstr "Очистить поле запроса"
+
+#: includes/class-RecombeeReRecommsWidget.php:964
+msgid ""
+"You are about to unlock filter input field. Click OK to unlock field and "
+"write filter ReQL manually. Keep in mind - Query Builder may stop working "
+"correctly."
+msgstr ""
+"Вы собираетесь разблокировать поля ввода значения фильтра. Нажмите OK, чтобы "
+"разблокировать поле и написать выражение ReQL для фильтра вручную. Имейте "
+"ввиду - построитель запросов может перестать работать корректно."
+
+#: includes/class-RecombeeReRecommsWidget.php:968
+msgid "Query constructor for booster"
+msgstr "Построитель запроса для параметра booster"
+
+#: includes/class-RecombeeReRecommsWidget.php:969
+msgid "Get Booster query expression"
+msgstr "Получить выражение для параметра Booster"
+
+#: includes/class-RecombeeReRecommsWidget.php:975
+msgid ""
+"You are about to unlock booster input field. Click OK to unlock field and "
+"write booster ReQL manually. Keep in mind - Query Builder may stop working "
+"correctly."
+msgstr ""
+"Вы собираетесь разблокировать поля ввода значения фильтра. Нажмите OK, чтобы "
+"разблокировать поле и написать выражение ReQL для фильтра вручную. Имейте "
+"ввиду - построитель запросов может перестать работать корректно."
+
+#: includes/class-RecombeeReRecommsWidget.php:977
+msgid "then"
+msgstr "тогда"
+
+#: includes/class-RecombeeReRecommsWidget.php:981
+msgid "else"
+msgstr "иначе"
+
+#: includes/class-RecombeeReRecommsWidget.php:994
+msgid "Low"
+msgstr "Low"
+
+#: includes/class-RecombeeReRecommsWidget.php:995
+msgid "Medium"
+msgstr "Medium"
+
+#: includes/class-RecombeeReRecommsWidget.php:996
+msgid "High"
+msgstr "High"
+
+#: includes/class-RecombeeReRecommsWidget.php:1154
+msgid "No recommendations were returned."
+msgstr "Нет рекомендаций для отображения."
+
+#: includes/class-RecombeeReRecommsWidget.php:1243
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", but it does not exists in your "
+"shop and will be deleted at Recombee if it has no parent or parent does not "
+"exists in your shop too."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", но продукт с этим ID не "
+"обнаружен в локальной базе и будет удален из базы Recombee если у него нет "
+"родительского продукта или таковой тоже не существует в базе данных магазина."
+
+#: includes/class-RecombeeReRecommsWidget.php:1292
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", that has parent product with ID="
+"\"%s\" in status \"Hidden\" for \"Catalog visibility\". Product can not be "
+"shown until it's true."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", который имеет родительский "
+"продукт с ID=\"%s\" в статусе \"Скрыт\" в каталоге продуктов. Продукт не "
+"может быть показан пока это так."
+
+#: includes/class-RecombeeReRecommsWidget.php:1297
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", that has parent product with ID="
+"\"%s\" in status \"%s\". Product can not not be shown to current user due to "
+"it's access restrictions."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", который имеет родительский "
+"продукт с ID=\"%s\" в статусе \"%s\". Продукт не может быть показан в силу "
+"ограничений прав доступа для текущего пользователя."
+
+#: includes/class-RecombeeReRecommsWidget.php:1300
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", that has parent product with ID="
+"\"%s\" in status \"Trash\". Product can not not be shown until it's true."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", который имеет родительский "
+"продукт с ID=\"%s\" в статусе \"В корзине\". Продукт не может быть показан "
+"пока это так."
+
+#: includes/class-RecombeeReRecommsWidget.php:1303
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", that has parent product with ID="
+"\"%s\" in unknown status. Product can not not be shown until it's true."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", который имеет родительский "
+"продукт с ID=\"%s\" в неизвестном статусе. Продукт не может быть показан "
+"пока это так."
+
+#: includes/class-RecombeeReRecommsWidget.php:1309
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", that has parent product with ID="
+"\"%s\". Product is out of stock due to variable product settings and can not "
+"be shown."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", который имеет родительский "
+"продукт с ID=\"%s\". Продукт отсутствует в наличии на складе в соответствии "
+"с вариативными настройками."
+
+#: includes/class-RecombeeReRecommsWidget.php:1312
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", that has parent product with ID="
+"\"%s\". Product is in stock according to variable product settings but can "
+"not be shown by the unknown reason."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", который имеет родительский "
+"продукт с ID=\"%s\". Продукт присутствует в наличии на складе в соответствии "
+"с вариативными настройками, но не может быть показан по неизвестной причине."
+
+#: includes/class-RecombeeReRecommsWidget.php:1317
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", that has parent product with ID="
+"\"%s\" that is hidden in product catalog by the unknown reason. Product can "
+"not not be shown until it's true."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", который имеет родительский "
+"продукт с ID=\"%s\", скрытый в каталоге продуктов по неизвестной причине. "
+"Продукт не может быть показан пока это так."
+
+#: includes/class-RecombeeReRecommsWidget.php:1322
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", that has parent product with ID="
+"\"%s\". Parent ID is valid ID, but the attempt to get Product by this ID has "
+"failed."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", который имеет родительский "
+"продукт с ID=\"%s\". Родительский ID является корректным ID, однако попытка "
+"получить продукт по данному ID завершилась неудачно."
+
+#: includes/class-RecombeeReRecommsWidget.php:1328
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", but it has status \"Hidden\" "
+"for \"Catalog visibility\" option and can not be shown until it's true."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", но этот продукт имеет "
+"статус \"Скрыт\" в каталоге продуктов и не может быть показан пока это так."
+
+#: includes/class-RecombeeReRecommsWidget.php:1333
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", but it has status \"%s\" and "
+"can not be shown to current user due to it's access restrictions."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", но этот продукт имеет \"%s"
+"\" и не может быть показан для анонимного пользователя."
+
+#: includes/class-RecombeeReRecommsWidget.php:1336
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", but it has status \"Trash\" and "
+"can not be shown until it's true."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", но этот продукт имеет "
+"статус \"В корзине\" и не может быть показан пока это так."
+
+#: includes/class-RecombeeReRecommsWidget.php:1339
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", but it has unknown status and "
+"can not be shown until it's true."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", но этот продукт имеет "
+"неизвестный статус и не может быть показан пока это так."
+
+#: includes/class-RecombeeReRecommsWidget.php:1344
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", but it is out of stock and can "
+"not be shown until current shop configured to hide out of stock products."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", но он отсутствует в "
+"наличии на складе и не может быть показан, пока настройки магазина "
+"сконфигурированы скрывать товары, которых нет в наличии."
+
+#: includes/class-RecombeeReRecommsWidget.php:1348
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", but it is hidden in product "
+"catalog by the unknown reason and can not be shown until it's true."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", но этот продукт скрыт в "
+"каталоге по неизвестной причине и не может быть показан пока это так."
+
+#: includes/class-RecombeeReRecommsWidget.php:1353
+#, php-format
+msgid ""
+"Recombee DB returned Product with ID=\"%s\", but it can not be shown by the "
+"unknown reason."
+msgstr ""
+"База данных Recombee вернула продукт с ID=\"%s\", но этот продукт не может "
+"быть показан по неизвестной причине."
+
+#: includes/class-RecombeeReRecommsWidget.php:1424
+#: includes/class-RecombeeReRecommsWidget.php:1436
+#: includes/class-RecombeeReRecommsWidget.php:1505
+#: includes/data-ProductSettingsArgs.php:92
+#: includes/data-ProductSettingsArgs.php:93
+#: includes/data-ProductSettingsArgs.php:144
+#: includes/data-ProductSettingsArgs.php:145
+#: includes/data-ProductSettingsArgs.php:216
+#: includes/data-ProductSettingsArgs.php:217
+msgid "Native values"
+msgstr "Собственные значения"
+
+#: includes/class-RecombeeReRecommsWidget.php:1520
+#: includes/class-RecombeeReRecommsWidget.php:1537
+#: includes/class-RecombeeReRecommsWidget.php:1544
+msgid "ReQL functions"
+msgstr "ReQL функции"
+
+#: includes/class-RecombeeReRecommsWidget.php:1593
+#: includes/data-ReQLSettingsArgs.php:13 includes/data-ReQLSettingsArgs.php:34
+#: includes/data-ReQLSettingsArgs.php:55 includes/data-ReQLSettingsArgs.php:76
+#: includes/data-ReQLSettingsArgs.php:97 includes/data-ReQLSettingsArgs.php:118
+#: includes/data-ReQLSettingsArgs.php:139
+#: includes/data-ReQLSettingsArgs.php:160
+#: includes/data-ReQLSettingsArgs.php:181
+#: includes/data-ReQLSettingsArgs.php:202
+#: includes/data-ReQLSettingsArgs.php:223
+#: includes/data-ReQLSettingsArgs.php:244
+#: includes/data-ReQLSettingsArgs.php:265
+#: includes/data-ReQLSettingsArgs.php:286
+msgid "1) ReQL functions"
+msgstr "1) ReQL функции"
+
+#: includes/class-RecombeeReRecommsWidget.php:1614
+msgid ""
+"Recombee Recommendation Widget could not get properties data from Recombee "
+"engine. Query builder is anavailable."
+msgstr ""
+"Виджет \"Recombee Персональные рекомендации\" не смог получить данные о "
+"свойствах от ядра Recombee. Построитель запроса отключен."
+
+#: includes/data-BlogSettingsArgs.php:23
+msgid "Recombee Sample Shop"
+msgstr "Recombee настройки"
+
+#: includes/data-BlogSettingsArgs.php:27
+msgid "Manage Recombee Sample Shop"
+msgstr "Управление настройками Recombee"
+
+#: includes/data-BlogSettingsArgs.php:35
+msgid "Credentials"
+msgstr "Полномочия"
+
+#: includes/data-BlogSettingsArgs.php:41
+msgid "ID of your database at Recombee"
+msgstr "Имя вашей базы данных в Recombee"
+
+#: includes/data-BlogSettingsArgs.php:42
+#, php-format
+msgid "Create a database at %s, then type its ID here"
+msgstr "Создайте базу данных на %s и затем укажите ее имя тут"
+
+#: includes/data-BlogSettingsArgs.php:43
+#, php-format
+msgid ""
+"This is the database which will keep all the information about products, "
+"users and interactions. It should be created at %s"
+msgstr ""
+"Это база данных, которая содержит всю информацию о товарах, пользователях и "
+"взаимодействиях пользователей. Ее следует создать на %s"
+
+#: includes/data-BlogSettingsArgs.php:51
+msgid "Recombee Secret Key"
+msgstr "Recombee Секретный ключ"
+
+#: includes/data-BlogSettingsArgs.php:52
+msgid ""
+"example: vGFbA4A7g1ubM0hkkMUGtTTCeftjhIAbTfRnA8M7koIyRuhDU3UmKnEkn1P4WUR6"
+msgstr ""
+"например: vGFbA4A7g1ubM0hkkMUGtTTCeftjhIAbTfRnA8M7koIyRuhDU3UmKnEkn1P4WUR6"
+
+#: includes/data-BlogSettingsArgs.php:53
+#, php-format
+msgid "Copy here the secret key that you received at %s."
+msgstr "Укажите здесь секретный ключ, полученный на %s."
+
+#: includes/data-BlogSettingsArgs.php:61
+msgid "Recombee Database Status"
+msgstr "Recombee статус базы данных"
+
+#: includes/data-BlogSettingsArgs.php:77
+msgid "Database"
+msgstr "База данных"
+
+#: includes/data-BlogSettingsArgs.php:83
+msgid "WC Product Properties synchronization"
+msgstr "Синхронизация свойств Продуктов WC"
+
+#: includes/data-BlogSettingsArgs.php:90 includes/data-BlogSettingsArgs.php:103
+#: includes/data-BlogSettingsArgs.php:116
+#: includes/data-BlogSettingsArgs.php:129
+#: includes/data-BlogSettingsArgs.php:142
+msgid "Launch synchronization"
+msgstr "Выполнить синхронизацию"
+
+#: includes/data-BlogSettingsArgs.php:96
+msgid "WC Customer Properties synchronization"
+msgstr "Синхронизация Покупателей WC"
+
+#: includes/data-BlogSettingsArgs.php:109
+msgid "WC Products synchronization"
+msgstr "WC синхронизация Продуктов"
+
+#: includes/data-BlogSettingsArgs.php:122
+msgid "WC Customers synchronization"
+msgstr "WC синхронизация Покупателей"
+
+#: includes/data-BlogSettingsArgs.php:135
+msgid "WC Interactions synchronization"
+msgstr "WC синхронизация взаимодействий"
+
+#: includes/data-BlogSettingsArgs.php:148
+msgid "Recombee Database Reset"
+msgstr "Сброс базы данных Recombee"
+
+#: includes/data-BlogSettingsArgs.php:157
+msgid "Launch Reset"
+msgstr "Выполнить Сброс"
+
+#: includes/data-BlogSettingsArgs.php:162
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/data-BlogSettingsArgs.php:168
+msgid "Synchronization Chunk Size"
+msgstr "Шаг синхронизации"
+
+#: includes/data-BlogSettingsArgs.php:169
+msgid "Integer greater then zero"
+msgstr "Любое число больше 0"
+
+#: includes/data-BlogSettingsArgs.php:181
+msgid "Debug Mode"
+msgstr "Режим отладки"
+
+#: includes/data-BlogSettingsArgs.php:182
+msgid ""
+"If the block with the recommended goods is empty and you do not understand "
+"why - turn on the debugging mode. The lack of recommendations may be due to "
+"errors in the requests sent to Recombee Engine. In debug mode, information "
+"about the errors will be displayed at the front-end."
+msgstr ""
+"Если блок с рекомендуемыми товарами пуст и Вы не понимаете почему - включите "
+"режим отладки. Отсутствие рекомендаций может быть связано с ошибками в "
+"запросах к ядру Recombee. В режиме отладки информация об ошибках запросов к "
+"Recombee, в случае их наличия, также будет выводится на экран во фронтэнде."
+
+#: includes/data-BlogSettingsArgs.php:190
+msgid "Log Requests Errors"
+msgstr "Логировать ошибки"
+
+#: includes/data-BlogSettingsArgs.php:191
+msgid ""
+"WIth this option on, all the erroneous responses from Recombee will be "
+"logged to ../log/requests-errors.log inside the plugin’s folder on your "
+"hosting server."
+msgstr ""
+"Если эта опция отмечена, то все результаты запросов с типом Ошибка будут "
+"логироватся в файл ../log/requests-errors.log в папке плагина на сервере "
+"Вашего хостера."
+
+#: includes/data-BlogSettingsArgs.php:199
+msgid "WC Related Products Override"
+msgstr "WC Похожие товары - переопределение"
+
+#: includes/data-BlogSettingsArgs.php:200
+msgid ""
+"With this option on, native WC Related Products are replaced with the "
+"Recombee recommendations at all the product pages. .The recommendations are "
+"requested according to shortcode in WC Related Shortcode field."
+msgstr ""
+"При включении этой опции WC похожие товары будут заменены на рекомендуемые "
+"товары Recombee на страницах всех продуктов. Сами рекомендуемые товары будут "
+"получены на основании настроек шорткода в опции WC Похожие товары - источник "
+"контента."
+
+#: includes/data-BlogSettingsArgs.php:208
+msgid "WC Related Tags"
+msgstr "WC Похожие товары - метки"
+
+#: includes/data-BlogSettingsArgs.php:209
+msgid "Type & press Space"
+msgstr "Ввести & нажать пробел"
+
+#: includes/data-BlogSettingsArgs.php:210
+msgid ""
+"Example: \"woocommerce_after_single_product_summary\" - Storefront Theme, "
+"\"sf_after_single_product_reviews\" - Uplift Theme"
+msgstr ""
+"Примеры: \"woocommerce_after_single_product_summary\" - Тема Storefront, "
+"\"sf_after_single_product_reviews\" - Тема Uplift"
+
+#: includes/data-BlogSettingsArgs.php:220
+msgid "WC Related Shortcode"
+msgstr "WC Похожие товары - источник контента"
+
+#: includes/data-BlogSettingsArgs.php:221
+msgid ""
+"Type any valid recommendation shortcode. Click Help Tab to get information "
+"on how the shortcodes works."
+msgstr ""
+"Наберите любую валидную конфигурацию поддерживаемых плагином шорткодов. "
+"Нажмите Помощь, чтобы узнать подробнее, как работают шорткоды."
+
+#: includes/data-BlogSettingsArgs.php:222
+msgid ""
+"Example: [RecombeeRecommendations ajaxMode=\"on\" wTitle=\"Recommended for "
+"You\" type=\"ProductsToProduct\" count=\"3\" scenario=\"related_products\"]"
+msgstr ""
+"Реальный пример: [RecombeeRecommendations ajaxMode=\"on\" wTitle="
+"\"Recommended for You\" type=\"ProductsToProduct\" count=\"3\" scenario="
+"\"related_products\"]"
+
+#: includes/data-BlogSettingsArgs.php:229
+msgid "Distinct recommendations"
+msgstr "Уникальные рекомендации"
+
+#: includes/data-BlogSettingsArgs.php:230
+msgid ""
+"If you use multiple widgets/shortcodes at a single page, enabling this "
+"option will ensure that no item will be recommended in multiple boxes. NOTE! "
+"This options applies only for AJAX requested recommendations."
+msgstr ""
+"Включение этой опции сделает все рекомендации на странице, запрашиваемые "
+"виджетами и шорткодами, уникальными. Внимание! Применимо только с включенным "
+"Ajax режимом."
+
+#: includes/data-BlogSettingsArgs.php:244
+msgid "WC Product Properties"
+msgstr "Набор свойств Продуктов WC"
+
+#: includes/data-BlogSettingsArgs.php:244
+#: includes/data-BlogSettingsArgs.php:259
+msgid "Toggle All"
+msgstr "Переключить выбранное"
+
+#: includes/data-BlogSettingsArgs.php:245
+#: includes/data-BlogSettingsArgs.php:260
+msgid "Choose properties"
+msgstr "Выберите свойства"
+
+#: includes/data-BlogSettingsArgs.php:259
+msgid "WC Customer Properties"
+msgstr "Набор свойств Покупателей WC"
+
+#: includes/data-CustomerSettingsArgs.php:14
+msgid "User Registration Status *"
+msgstr "Статус регистрации пользователя *"
+
+#: includes/data-CustomerSettingsArgs.php:22
+#: includes/data-CustomerSettingsArgs.php:45
+#: includes/data-CustomerSettingsArgs.php:68
+#: includes/data-CustomerSettingsArgs.php:91
+#: includes/data-CustomerSettingsArgs.php:114
+#: includes/data-ProductSettingsArgs.php:36
+#: includes/data-ProductSettingsArgs.php:58
+#: includes/data-ProductSettingsArgs.php:84
+#: includes/data-ProductSettingsArgs.php:110
+#: includes/data-ProductSettingsArgs.php:136
+msgid "Meta"
+msgstr "Мета"
+
+#: includes/data-CustomerSettingsArgs.php:24
+msgid "User Registration Status"
+msgstr "Статус регистрации пользователя"
+
+#: includes/data-CustomerSettingsArgs.php:29
+#: includes/data-CustomerSettingsArgs.php:52
+#: includes/data-CustomerSettingsArgs.php:75
+#: includes/data-CustomerSettingsArgs.php:98
+#: includes/data-CustomerSettingsArgs.php:121
+#: includes/data-ProductSettingsArgs.php:43
+#: includes/data-ProductSettingsArgs.php:69
+#: includes/data-ProductSettingsArgs.php:95
+#: includes/data-ProductSettingsArgs.php:121
+#: includes/data-ProductSettingsArgs.php:147
+#, php-format
+msgid "%s) Meta"
+msgstr "%s) Мета"
+
+#: includes/data-CustomerSettingsArgs.php:37
+#: includes/data-CustomerSettingsArgs.php:47
+msgid "Shop Customer Role"
+msgstr "Роль покупателя магазина"
+
+#: includes/data-CustomerSettingsArgs.php:60
+#: includes/data-CustomerSettingsArgs.php:70
+msgid "Customer Country"
+msgstr "Страна покупателя"
+
+#: includes/data-CustomerSettingsArgs.php:83
+#: includes/data-CustomerSettingsArgs.php:93
+msgid "Customer City"
+msgstr "Город покупателя"
+
+#: includes/data-CustomerSettingsArgs.php:106
+#: includes/data-CustomerSettingsArgs.php:116
+msgid "Customer ZIP"
+msgstr "Customer ZIP покупателя"
+
+#: includes/data-ProductSettingsArgs.php:18
+msgid "Shop ID *"
+msgstr "ID магазина *"
+
+#: includes/data-ProductSettingsArgs.php:25
+#: includes/data-ProductSettingsArgs.php:162
+#: includes/data-ProductSettingsArgs.php:185
+#: includes/data-ProductSettingsArgs.php:208
+#: includes/data-ProductSettingsArgs.php:235
+msgid "Required"
+msgstr "Обязательно"
+
+#: includes/data-ProductSettingsArgs.php:29
+#: includes/data-ProductSettingsArgs.php:38
+msgid "Product SKU"
+msgstr "SKU продукта"
+
+#: includes/data-ProductSettingsArgs.php:51
+#: includes/data-ProductSettingsArgs.php:60
+msgid "Product Regular Price"
+msgstr "Базовая цена Продукта"
+
+#: includes/data-ProductSettingsArgs.php:77
+#: includes/data-ProductSettingsArgs.php:86
+msgid "Product Is In Stock"
+msgstr "Продукт в наличии"
+
+#: includes/data-ProductSettingsArgs.php:103
+#: includes/data-ProductSettingsArgs.php:112
+msgid "Product Stock Quantity"
+msgstr "Количества продукта в запасе"
+
+#: includes/data-ProductSettingsArgs.php:129
+#: includes/data-ProductSettingsArgs.php:138
+msgid "Product Managing Stock"
+msgstr "Продукт управляется по остаткам"
+
+#: includes/data-ProductSettingsArgs.php:155
+msgid "Product Status *"
+msgstr "Статус продукта *"
+
+#: includes/data-ProductSettingsArgs.php:164
+msgid "Product Status"
+msgstr "Статус продукта"
+
+#: includes/data-ProductSettingsArgs.php:170
+#: includes/data-ProductSettingsArgs.php:193
+#: includes/data-ProductSettingsArgs.php:219
+#: includes/data-ProductSettingsArgs.php:246
+#, php-format
+msgid "%s) Predefined"
+msgstr "%s) Предустановленные"
+
+#: includes/data-ProductSettingsArgs.php:178
+msgid "Product Type *"
+msgstr "Тип продукта *"
+
+#: includes/data-ProductSettingsArgs.php:187
+msgid "Product Type"
+msgstr "Тип продукта"
+
+#: includes/data-ProductSettingsArgs.php:201
+msgid "Product is Visible *"
+msgstr "Видимость Товара *"
+
+#: includes/data-ProductSettingsArgs.php:228
+msgid "Product Parent *"
+msgstr "Родительский продукт *"
+
+#: includes/data-ProductSettingsArgs.php:268
+#: includes/data-ProductSettingsArgs.php:287
+#: includes/data-ProductSettingsArgs.php:361
+#: includes/data-ProductSettingsArgs.php:380
+#, php-format
+msgid "Product %s"
+msgstr "Продукт %s"
+
+#: includes/data-ProductSettingsArgs.php:285
+#: includes/data-ProductSettingsArgs.php:330
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+#: includes/data-ProductSettingsArgs.php:296
+#: includes/data-ProductSettingsArgs.php:341
+#, php-format
+msgid "%s) Taxonomies"
+msgstr "%s) Таксономии"
+
+#: includes/data-ProductSettingsArgs.php:313
+msgid "Product Attributes"
+msgstr "Атрибуты продукта"
+
+#: includes/data-ProductSettingsArgs.php:332
+msgid "Product Attribute"
+msgstr "Атрибуты продукта"
+
+#: includes/data-ProductSettingsArgs.php:378
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: includes/data-ProductSettingsArgs.php:389
+#, php-format
+msgid "%s) Attributes"
+msgstr "%s) Атрибуты"
+
+#: includes/data-ReQLSettingsArgs.php:102
+msgid "no args needed"
+msgstr "аргументы не требуются"
+
+#~ msgid "Example: woocommerce_after_single_product_summary"
+#~ msgstr "Например: woocommerce_after_single_product_summary"
+
+#~ msgid ""
+#~ "Recombee DB returned Product with ID=\"%s\", that has parent product with "
+#~ "ID=\"%s\" out of stock. Child product can not be shown until current shop "
+#~ "configured to hide out of stock products and child product not managed by "
+#~ "stock directly."
+#~ msgstr ""
+#~ "База данных Recombee вернула продукт с ID=\"%s\", который имеет "
+#~ "родительский продукт с ID=\"%s\", отсутствующий в наличии на складе. "
+#~ "Продукт не может быть показан, пока настройки магазина сконфигурированы "
+#~ "скрывать товары, которых нет в наличии."
+
+#~ msgid ""
+#~ "Recombee DB returned Product with ID=\"%s\", but it has status \"Pending"
+#~ "\" and could not be shown until user does not logged in."
+#~ msgstr ""
+#~ "База данных Recombee вернула продукт с ID=\"%s\", но этот продукт имеет "
+#~ "статус \"На утверждении\" и не может быть показан для анонимного "
+#~ "пользователя."
+
+#~ msgid "Clear BOOSTER query"
+#~ msgstr "Очистить BOOSTER"
+
+#~ msgid "userImpact"
+#~ msgstr "userImpact"
+
+#~ msgid "Recommendations userImpact"
+#~ msgstr "Рекомендации userImpact"
+
+#~ msgid "Recommendations diversity"
+#~ msgstr "Рекомендации diversity"
+
+#~ msgid "Recommendations minRelevance"
+#~ msgstr "Рекомендации minRelevance"
+
+#~ msgid "Recommendations rotationRate"
+#~ msgstr "Рекомендации rotationRate"
+
+#~ msgid "Recommendations rotationTime"
+#~ msgstr "Рекомендации rotationTime"
+
+#~ msgid "Your custom title for recommendation widget"
+#~ msgstr "Ваш заголовок для виджета рекомендаций"
+
+#~ msgid "The number of columns to which widget content will be divided"
+#~ msgstr "Количество колонок, на которые будет разбит контент виджета"
+
+#~ msgid "Recommendations type"
+#~ msgstr "Тип рекомендаций"
+
+#~ msgid "Recommendations count"
+#~ msgstr "Количество позиций"
+
+#~ msgid "Scenario name"
+#~ msgstr "Имя сценария"
+
+#~ msgid "title"
+#~ msgstr "title"

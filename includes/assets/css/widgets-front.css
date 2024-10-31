@@ -1,0 +1,148 @@
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-true li {
+    list-style: none outside;
+}
+.recombeeRe-ajaxed-widget{
+	width: 100%;
+    height: 60px;
+    padding: 10px 0;
+    display: inline-block;
+	overflow: hidden;
+}
+
+.widget.recombee-widget.recombee-recommends-widget {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 1em 0;
+    position: relative;
+}
+
+.widget.recombee-widget.recombee-recommends-widget .recombee-products ul{
+	margin: 0;
+}
+
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	position: relative;
+}
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false .product-slot{
+	position: relative;
+}
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false .product-slot{
+	text-align: center;
+    margin-bottom: 4.235801032em;
+}
+
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.recomms-columns-1 .product-slot{
+	flex-basis: 100%;
+}
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-2 .product-slot { flex-basis: calc((100% - 1*5%) / 2); }
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-3 .product-slot { flex-basis: calc((100% - 2*5%) / 3); }
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-4 .product-slot { flex-basis: calc((100% - 3*5%) / 4); }
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-5 .product-slot { flex-basis: calc((100% - 4*5%) / 5); }
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-6 .product-slot { flex-basis: calc((100% - 5*5%) / 6); }
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-7 .product-slot { flex-basis: calc((100% - 6*5%) / 7); }
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-8 .product-slot { flex-basis: calc((100% - 7*5%) / 8); }
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-9 .product-slot { flex-basis: calc((100% - 8*5%) / 9); }
+
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-2 .product-slot,
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-3 .product-slot,
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-4 .product-slot,
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-5 .product-slot,
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-6 .product-slot,
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-7 .product-slot,
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-8 .product-slot,
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-9 .product-slot{
+	margin-right: 5%;
+}
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-2 .product-slot:nth-child(2n),
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-3 .product-slot:nth-child(3n),
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-4 .product-slot:nth-child(4n),
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-5 .product-slot:nth-child(5n),
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-6 .product-slot:nth-child(6n),
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-7 .product-slot:nth-child(7n),
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-8 .product-slot:nth-child(8n),
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false ul.recombee-products-list.recomms-columns-9 .product-slot:nth-child(9n){
+
+    margin-right: 0;
+}
+
+
+
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false .product-slot .star-rating{
+	margin: 0 auto;
+}
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false .product-slot img {
+    display: block;
+    margin: 0 auto 1.618em;
+	width: 100%;
+}
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false .product-slot h2 {
+    font-size: 1rem;
+    font-weight: initial;
+}
+.widget.recombee-widget.recombee-recommends-widget .recombee-products.follow-theme-css-false .product-slot .price {
+    display: block;
+    font-weight: initial;
+    margin-bottom: 1rem;
+}
+
+
+.widget-warning-holder {
+    margin: 35px 0;
+	width: 100%;
+	display: inherit;
+    clear: both;
+}
+.recombee-scope .widget-warning{
+    background: #ffffffb5;
+    text-align: left;
+    border: 1px solid #717171;
+    color: #584e4e;
+    padding: 15px 10px;
+    width: 100%;
+    font-family: monospace;
+    font-weight: 400;
+}
+.recombee-scope .widget-warning ul{
+    margin: 0 2em;
+	list-style: disc;
+}
+.recombee-scope .widget-warning li {
+    font-weight: 400;
+    line-height: 1.4em;
+    font-style: italic;
+}
+
+
+
+/* HELPERS */
+.recombee-spinner {
+    width: 40px;
+    height: 40px;
+    margin: 0px auto;
+    background-color: #333;
+    border-radius: 100%;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
